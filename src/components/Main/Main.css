@@ -6,21 +6,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--main-bg-color);
+  background-color: #ffffff;
 }
 
 .main h1 {
   margin-bottom: 32px;
-  font-size: 32px;
+  font-size: 36px;
   line-height: 1;
-  color: var(--main-text-color);
+  color: #000536;
   text-align: center;
 }
 
 .main p {
   margin-bottom: 20px;
   width: 100%;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
-  color: var(--main-text-color);
+  color: #000536;
 }
