@@ -1,22 +1,16 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { ThemeProvider } from "./providers";
+import { Header, Main, Footer } from "./components";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Типичный веб разработчик</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Theme Provider
-        </a>
-      </header>
-    </div>
+    <ThemeProvider>
+      <>
+        <Header />
+        <Main />
+        <Footer />
+      </>
+    </ThemeProvider>
   );
 }
 

@@ -19,4 +19,11 @@ code {
 h1,
 p {
   margin: 0;
+  font-style: normal;
+}
+
+button {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
 }
