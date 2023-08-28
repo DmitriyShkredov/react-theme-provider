@@ -1,13 +1,16 @@
 import "./App.css";
 import { Header, Main, Footer } from "./components";
+import { ThemeProvider } from "./providers/ThemeProvider";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Main />
-      <Footer />
-    </>
+    <ThemeProvider>
+      <>
+        <Header />
+        <Main />
+        <Footer />
+      </>
+    </ThemeProvider>
   );
 }
 

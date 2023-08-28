@@ -7,20 +7,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1f5ac7;
+  background-color: var(--header-background-color);
 }
 
 .header__logo {
   font-size: 20px;
   line-height: 1;
   font-weight: 500;
-  color: #ffffff;
+  color: var(--header-text-color);
 }
 
 .header__theme-button {
   margin-left: auto;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--header-text-color);
   padding: 4px 8px;
-  color: #ffffff;
+  color: var(--header-text-color);
   cursor: pointer;
 }

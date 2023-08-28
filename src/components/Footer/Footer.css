@@ -7,8 +7,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1f5ac7;
+  background-color: var(--footer-background-color);
   font-size: 14px;
   line-height: 1;
-  color: #ffffff;
+  color: var(--footer-text-color);
 }
