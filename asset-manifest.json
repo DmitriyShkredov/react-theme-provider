@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-theme-provider/static/css/main.6cbae85f.css",
+    "main.js": "/react-theme-provider/static/js/main.9edb8199.js",
+    "index.html": "/react-theme-provider/index.html",
+    "main.6cbae85f.css.map": "/react-theme-provider/static/css/main.6cbae85f.css.map",
+    "main.9edb8199.js.map": "/react-theme-provider/static/js/main.9edb8199.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6cbae85f.css",
+    "static/js/main.9edb8199.js"
+  ]
+}
